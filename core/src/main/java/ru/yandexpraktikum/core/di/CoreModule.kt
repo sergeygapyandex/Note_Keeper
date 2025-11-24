@@ -30,7 +30,7 @@ interface CoreModule {
         @Singleton
         fun provideNoteDatabase(@ApplicationContext context: Context): NoteDatabase =
             Room.databaseBuilder(
-                context.applicationContext,
+                context,
                 NoteDatabase::class.java,
                 DATABASE_NAME
             ).build()

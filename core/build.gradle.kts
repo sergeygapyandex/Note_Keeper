@@ -47,6 +47,5 @@ dependencies {
     androidTestImplementation(libs.androidx.espresso.core)
     androidTestImplementation(libs.androidx.ui.test.junit4)
     implementation(libs.hilt.android)
-    implementation(libs.hilt.navigation.compose)
     kapt(libs.hilt.compiler)
 }
